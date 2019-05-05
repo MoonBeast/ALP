@@ -1,0 +1,376 @@
+/*------------------------- Main CSS-------------------------*/
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    min-width: 320px;
+}
+
+a {    
+    font-size: 17px;
+    font-weight: 700;
+    color: #2cc7c1;
+}
+
+a:hover {
+    color: #2cc7c1; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    position: relative;
+}
+
+/*------------------------- Section 01: first page -------------------------*/
+.header {
+    background: url("../img/stonehenge.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+}
+
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.section-row {
+    display: table-row;    
+}
+
+.section-cell {
+    display: table-cell;
+    text-align: center;    
+}
+
+.content-cell {
+    display: inline-block;
+    max-width: 600px;    
+}
+
+.cell-header {    
+    font-size: 60px;    
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 160px;
+}
+
+.cell-text {    
+    font-size: 20px;    
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.btn {
+    font-size: 20px;    
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    transition: background .7s;
+}
+
+.btn-default {
+    background: #6a7079;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background: #474c52;
+}
+/*------------------------- End section 01: first page -------------------------*/
+
+
+/*------------------------- Section 02: second page, first part -------------------------*/
+.tour_guide{
+    padding: 30px 0;
+    border-bottom: 2px solid #ddd;    
+}
+
+.text-uppercase {
+    text-align: center; 
+}
+
+.text-left {
+    margin: 23px;    
+}
+
+/*-- Tabs --*/
+.panel {
+    margin-top: 20px;
+}
+
+.nav-tabs a, .nav-tabs a:hover, .nav-tabs a:focus {
+    outline: 0;
+    background-color: #ddd;    
+} 
+
+.tab-content {
+    padding: 25px 30px;    
+}
+
+.text-tab {
+    margin-bottom: 42px;
+}
+
+.my-list {
+    margin-top: 10px;
+    margin-right: 50px;    
+}
+
+.fa {
+    line-height: 30px;    
+    margin-right: 10px;    
+}
+/*------------------------- Section 02: second page, end of first part -------------------------*/
+
+/*------------------------- Section 02: second page, second part -------------------------*/
+/*----- Header -----*/
+.guides-header {
+    margin-top: 35px;   
+}
+
+.guides-text {
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+/*----- Body -----*/
+.twitter-icon {
+    position: relative;
+}
+
+.twitter-icon:hover .frontside {
+    opacity: .1;
+}
+
+.twitter-icon:hover .backside {
+    opacity: 1;
+}
+
+.twitter-icon:hover h3 {
+    color: #6bd8d3;
+}
+
+.frontside {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+.backside {
+    width: 140px;
+    height: 140px;
+    background: #6bd8d3;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.fa-twitter {
+    line-height: 140px;
+    font-size: 35px;
+    color: #fff;
+}
+
+/*----- Modal -----*/
+.modal-text {
+    text-align: left;
+}
+
+/*----- Footer -----*/
+.guides-footer {
+    margin-top: 20px;
+}
+/*------------------------- Section 02: second page, end of second part -------------------------*/
+/*------------------------- End section 02: second page -------------------------*/
+
+/*------------------------- Section 03: third page -------------------------*/
+.events {
+    margin: 35px 0;
+}
+
+.link {    
+    margin-left: 20px;    
+}
+
+.tab-collapse {
+    margin-bottom: 18px;
+}
+
+.time {
+    font-size: 18px;
+    font-weight: 700;
+    background: #2cc7c1;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 45px;
+}
+
+.collapse-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #747a84;    
+}
+
+.collapse-link:hover {    
+    color: #747a84;
+}
+
+.collapse-state {
+    color: #2cc7c1;    
+}
+
+
+.row-item  {
+    margin-top: 50px;    
+}
+
+.fa-arrow-circle-right {
+    margin-left: 10px;
+}
+
+.carousel-indicators {
+    left: 0;
+    bottom: 15px;
+    margin-left: 25px;
+    width: auto;
+}
+
+
+/*------------------------- End of section 03: third page -------------------------*/
+
+
+/*------------------------- Form: third page -------------------------*/
+
+.form {
+    padding: 40px 0;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+    margin-top: 35px;
+    padding-right: 45px;
+}
+
+.btn-form {
+    margin-top: 35px;
+}
+
+.form-control-feedback {
+    margin: 42px 20px 0 0;
+}
+
+/*------------------------- End of form: third page -------------------------*/
+
+
+/*------------------------- Section: Google map -------------------------*/
+
+.map {
+    margin-top: 80px;
+}
+
+.stonehenge_map {
+    margin-top: 25px;
+}
+
+/*------------------------- End of section: Google map -------------------------*/
+
+
+/*------------------------- Section: Footer -------------------------*/
+
+.contacts {
+    background: #525b60;
+    padding: 35px 0;
+    color: #cccccc;
+}
+
+.contacts h3, .contacts h4 {
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+
+.contacts h3 span {
+    font-weight: 700;
+}
+
+.contacts h4 {
+    font-size: 20px;
+}
+
+.contacts a, .contacts .contact-link p {
+    font-weight: 700;
+    color: #2cc7c1;
+}
+
+.social img {
+    margin-right: 15px;
+}
+
+.year {
+    background: #3f464c;
+    padding-top: 15px;
+    color: #cccccc;
+    font-size: 16px;
+}
+
+/*------------------------- End of section: Footer -------------------------*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.description {
+        padding-bottom: 50px;
+    }
+
+    .contacts h4 {
+        margin-top: 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width : 600px) {
+    .btn {
+        margin-bottom: 15px;
+    }
+
+	.content-cell {   
+    max-width: 320px;    
+    }
+    
+    .cell-header {    
+    font-size: 35px;   
+    }
+    
+    .cell-text, .btn, .guides-text {
+    font-size: 16px;   
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
